@@ -1,0 +1,18 @@
+{
+  "name": "shopify-dawn-theme",
+  "version": "1.0.0",
+  "description": "Shopify Dawn theme with Tailwind CSS and Alpine.js",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build assets/main.css -o assets/output.css",
+    "watch:css": "tailwindcss build assets/main.css -o assets/output.css --watch"
+  },
+  "keywords": ["shopify", "theme", "tailwind", "alpine"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
+}
